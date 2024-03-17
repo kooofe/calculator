@@ -1,0 +1,98 @@
+
+input[type="button"] {
+    width: 100%;
+    padding: 30px 40px;
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.basic-operators-container input[type="button"] {
+    width: 85%;
+    background-color: orange;
+    color: black;
+}
+.numbers input[type="button"] {
+    width: 100%;
+}
+
+.main-container {
+    background-color: black;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+
+.display-control,
+.inputs {
+    display: flex;
+}
+
+.calculator-display,
+.clear-button,
+.numbers,
+.basic-operators-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operator-container {
+    flex: 1;
+    background-color: yellow;
+    height: 105px;
+    align-self: stretch;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    height: 480px;
+    width: 170px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.calculator-display,
+.numbers {
+    justify-content: space-evenly;
+    flex-basis: 600px;
+}
+
+.clear-button,
+.basic-operators-container {
+    flex-basis: 200px;
+}
+
+.calculator-display {
+    height: 120px;
+    background-color: wheat;
+}
+
+.clear-button {
+    background-color: blue;
+}
+
+.numbers {
+    height: 480px;
+    background-color: grey;
+}
+
+.basic-operators-container {
+    background-color: orange;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
