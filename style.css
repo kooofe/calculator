@@ -10,22 +10,31 @@ input[type="button"] {
     border-radius: 5px;
 }
 
-input[type="text"] {
-    padding: 20px 30px;
-    font-size: 24px;
-    font-weight: bold;
-    border-radius: 5px;
-    border: 2px solid black;
-}
+/*input[type="text"] {*/
+/*    padding: 20px 30px;*/
+/*    font-size: 24px;*/
+/*    font-weight: bold;*/
+/*    border-radius: 5px;*/
+/*    border: 2px solid black;*/
+/*}*/
 
 .basic-operators-container input[type="button"] {
     width: 85%;
     background-color: orange;
     color: black;
+    outline: black solid 2px;
 }
 .numbers input[type="button"] {
     width: 100%;
+    background-color: grey;
+    outline: black solid 2px;
 }
+
+.clear-button input[type="button"] {
+    background-color: orange;
+    outline: black solid 2px;
+}
+
 
 .main-container {
     background-color: black;
@@ -83,7 +92,7 @@ input[type="text"] {
 }
 
 .clear-button {
-    background-color: blue;
+    background-color: orange;
 }
 
 .numbers {
