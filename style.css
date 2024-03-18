@@ -4,22 +4,19 @@ input[type="button"] {
     padding: 30px 40px;
     background-color: green;
     color: white;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     border: none;
     border-radius: 5px;
 }
 
-/*input[type="text"] {*/
-/*    padding: 20px 30px;*/
-/*    font-size: 24px;*/
-/*    font-weight: bold;*/
-/*    border-radius: 5px;*/
-/*    border: 2px solid black;*/
-/*}*/
+.calculator-display {
+    font-size: 48px;
+    font-weight: bold;
+}
 
 .basic-operators-container input[type="button"] {
-    width: 85%;
+    width: 80%;
     background-color: orange;
     color: black;
     outline: black solid 2px;
@@ -30,7 +27,7 @@ input[type="button"] {
     outline: black solid 2px;
 }
 
-.clear-button input[type="button"] {
+.clear-button-container input[type="button"] {
     background-color: orange;
     outline: black solid 2px;
 }
@@ -39,7 +36,7 @@ input[type="button"] {
 .main-container {
     background-color: black;
     margin: auto;
-    width: 800px;
+    width: 820px;
     height: 600px;
 }
 
@@ -49,7 +46,7 @@ input[type="button"] {
 }
 
 .calculator-display,
-.clear-button,
+.clear-button-container,
 .numbers,
 .basic-operators-container {
     display: flex;
@@ -81,9 +78,9 @@ input[type="button"] {
     flex-basis: 600px;
 }
 
-.clear-button,
+.clear-button-container,
 .basic-operators-container {
-    flex-basis: 200px;
+    flex-basis: 220px;
 }
 
 .calculator-display {
@@ -91,7 +88,7 @@ input[type="button"] {
     background-color: wheat;
 }
 
-.clear-button {
+.clear-button-container {
     background-color: orange;
 }
 
